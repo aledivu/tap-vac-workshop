@@ -5,8 +5,10 @@ modules:
     setup-environment:
         name: Setup Environment
         exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
+    procedure/01-get-db:
+        name: Use VAC to prepare your DB
+    procedure/02-deploy-app:
+        name: Use TAP to deploy your app   
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop
