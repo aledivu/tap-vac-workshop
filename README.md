@@ -8,7 +8,7 @@ Tanzu Application Platform (TAP) enables enterprises to deliver a developer expe
 
 Tanzu Application Platform abstracts away the mechanics of container orchestration, secure software supply chains, and GitOps deployment/promotion models. It allows developers to focus purely on the authoring of business logic, user interfaces, and APIs. Meanwhile, the operations teams can declare compliant delivery processes that will be implemented, in a consistent, automated, repeatable manner to each new application workload that is onboarded.
 
-** TAP Overview Diagram **
+**TAP Overview Diagram**
 ![Screenshot 2022-11-29 at 12 45 38](https://user-images.githubusercontent.com/44228563/204520883-94feec21-3925-4bce-9fea-c4432eba4b48.png)
 
 This demonstration will show how development teams and operators will interact with the platform to enable iterative development cycles, and secure, automated delivery to production.
@@ -24,7 +24,7 @@ You are free to enter your own commands to experiment in this environment, or yo
 
 Terminal: Execute command in terminal "1"
 
-'kubectl config get-contexts eduk8s'
+`kubectl config get-contexts eduk8s`
 
 Now, let's start delivering software with Tanzu Application Platform.
 
