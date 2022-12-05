@@ -2,8 +2,13 @@ name: Path to production with VMware Application Catalog and Tanzu Application P
 
 modules:
     activate:
-    - workshop-overview
-    - setup-environment
-    - procedure/01-get-db
-    - procedure/02-deploy-app
+    - exercises/vmware-application-catalog-intro
+    - exercises/vmware-application-catalog-tech
+    - exercises/vmware-application-catalog-deploy
+    - exercises/app-accelerators
+    - exercises/push-to-git
+    - exercises/apply-workload
+    - exercises/path-to-prod
+    - exercises/vac
     - workshop-summary
+
